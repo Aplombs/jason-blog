@@ -10,6 +10,7 @@ View的事件分发在Android中很重要！！！很重要！！！很重要！
 
 ### 2、ViewGroup的事件分发涉及到哪些过程和方法？
 ![](http://upload-images.jianshu.io/upload_images/1479978-d2f0c0e7ba6e2cc0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 **public boolean dispatchTouchEvent(MotionEvent ev)**   
 	是事件分发机制中的核心，所有的事件调度都归它管   
 	用来进行事件的分发，如果事件能够传递给当前View，那么此方法一定会被调用   
