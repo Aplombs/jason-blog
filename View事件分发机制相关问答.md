@@ -71,8 +71,9 @@ ViewGroup默认不拦截任何事件；看源码可以知道ViewGroup的onInterc
 down事件开头，up事件结尾，中间可能会有数目不定的move事件。
 
 ## View事件的优先级
-![](http://upload-images.jianshu.io/upload_images/1479978-8fac4ae821631a81.gif?imageMogr2/auto-orient/strip)
 
+ ---------
+ 
 ### 1、基于监听的事件分发有哪些？怎么来设置监听？
 我们常用的setOnClickListener、OnLongClickListener、setOnTouchListener等都是基于监听的事件处理。   
 设置监听可以用如下几种方式：
@@ -289,7 +290,7 @@ Activity-Window-View。
 不影响，只要clickable和longClickable有一个为真，那么onTouchEvent就返回true。
 
 ## View的滑动冲突】
-![](http://upload-images.jianshu.io/upload_images/1479978-8fac4ae821631a81.gif?imageMogr2/auto-orient/strip)
+ ---------
 
 ### 1、常见滑动冲突场景
 场景1 —— 外部滑动方向与内部滑动方向不一致，比如ViewPager中包含ListView;   
