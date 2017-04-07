@@ -30,6 +30,24 @@
 
 [Android Bitmap 缓存策略](http://www.jianshu.com/p/635fceca82d3)
 
+------
+
+**View及事件分发**
+
+[读书笔记--View的滑动](http://www.jianshu.com/p/2b48551d5319)
+
+[读书笔记--MotionEvent](http://www.jianshu.com/p/48c3323f334f)
+
+[View基础坐标及滑动相关知识问答](https://github.com/jasonLYF/jason-blog/blob/master/View%E5%9F%BA%E7%A1%80%E5%9D%90%E6%A0%87%E5%8F%8A%E6%BB%91%E5%8A%A8%E7%9B%B8%E5%85%B3%E7%9F%A5%E8%AF%86%E9%97%AE%E7%AD%94.md)
+
+[View Animation [View动画]](https://github.com/jasonLYF/jason-blog/blob/master/View%20Animation%20%5BView%E5%8A%A8%E7%94%BB%5D.md)
+
+[Property Animation [属性动画]](https://github.com/jasonLYF/jason-blog/blob/master/Property%20Animation%20%5B%E5%B1%9E%E6%80%A7%E5%8A%A8%E7%94%BB%5D.md)
+
+[View事件分发机制相关问答](https://github.com/jasonLYF/jason-blog/blob/master/View%E4%BA%8B%E4%BB%B6%E5%88%86%E5%8F%91%E6%9C%BA%E5%88%B6%E7%9B%B8%E5%85%B3%E9%97%AE%E7%AD%94.md)
+
+[Android 之 自定义View全解](http://www.jianshu.com/p/7468e038825a)
+
 
 
 喜欢我的文章请star ：）
