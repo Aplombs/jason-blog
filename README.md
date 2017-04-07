@@ -48,6 +48,17 @@
 
 [Android 之 自定义View全解](http://www.jianshu.com/p/7468e038825a)
 
+------
 
+**其他**
+[正则表达式三十六计](http://www.jianshu.com/p/2fa59d1f81d2)
+
+[Glide的基础用法](https://github.com/jasonLYF/jason-blog/blob/master/Glide%E7%9A%84%E5%9F%BA%E7%A1%80%E7%94%A8%E6%B3%95.md)
+
+[Glide 的 ViewTarget 和 GlideModule.applyOptions()](https://github.com/jasonLYF/jason-blog/blob/master/Glide%20%E7%9A%84%20ViewTarget%20%E5%92%8C%20GlideModule.applyOptions().md)
+
+------
 
 喜欢我的文章请star ：）
+
+![](http://upload-images.jianshu.io/upload_images/1479978-0ff1a43230b41689.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
