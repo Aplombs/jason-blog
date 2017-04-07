@@ -50,7 +50,10 @@ View的边界直接发生了变化，又因为View和他的子View的相对位�
 
 ### 3、获取View的位置坐标失败问题怎么处理？
 如果我们要获取一个view的位置坐标，可以直接子findviewbyid之后获取，也可以在view的点击事件中获取，当然也可以在其他地方获取。如果我们直接在finedviewbyid之后获取有时候就会获取失败，获取到的值是0；   
-分析原因可能有以下三种情况： 1）view的宽高本身就是0；2）View的visibility属性为gone；3）视图还未绘制完成，当然未绘制完成也表现在不同的方面，比如，activity所代表的界面还没显示出来没有添加到WindowPhone的DecorView上；要获取的view没有被添加到DecorView上。   
+分析原因可能有以下三种情况：  
+1）view的宽高本身就是0；  
+2）View的visibility属性为gone；  
+3）视图还未绘制完成，当然未绘制完成也表现在不同的方面，比如，activity所代表的界面还没显示出来没有添加到WindowPhone的DecorView上；要获取的view没有被添加到DecorView上。     
 我们主要要说的是第三种情况，可以怎么解决呢？   
 **答：**   
 1）在View的事件回调里获取；这时候该view已经被显示即被添加到DecorView上 如点击事件 触摸事件 焦点事件等
